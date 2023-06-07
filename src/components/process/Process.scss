@@ -1,0 +1,137 @@
+.process {
+  width: 100%;
+  margin-top: 90px;
+}
+
+.process-box {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px blueviolet solid;
+}
+
+.our-process {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+
+  .text1 {
+    display: flex;
+    justify-content: center;
+    font-family: "JustAnotherHand-Regular";
+    font-size: 15px;
+    font-weight: normal;
+    color: #f8ba12;
+  }
+
+  .text2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .text3 {
+    display: flex;
+    justify-content: center;
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: normal;
+
+    color: #989fbc;
+  }
+}
+
+.process-card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: 2px green dotted;
+}
+
+// .section-design {
+//   // position: absolute;
+// }
+
+.steps {
+  font-family: "Jost";
+  width: 100%;
+  border: 3px red solid;
+
+  p {
+    color: #989fbc;
+    font-size: 22px;
+  }
+}
+
+// @media only screen and (max-width: 986px) {
+
+//   .process-box {
+//   width: 50%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   border: 2px blueviolet solid;
+// }
+
+// .our-process {
+//   width: 55%;
+//   margin-left: auto;
+//   margin-right: auto;
+
+//   .text1 {
+//     display: flex;
+//     justify-content: center;
+//     font-family: "JustAnotherHand-Regular";
+//     font-size: 18px;
+//     font-weight: normal;
+//     color: #f8ba12;
+//   }
+
+//   .text2 {
+//     display: flex;
+//     justify-content: center;
+//     font-family: "Jost";
+//     font-size: 38px;
+//     font-weight: bold;
+//   }
+
+//   .text3 {
+//     display: flex;
+//     justify-content: center;
+//     font-family: "Jost";
+//     font-size: 22px;
+//     font-weight: normal;
+
+//     color: #989fbc;
+//   }
+// }
+
+// .process-card {
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 90%;
+//   display: flex;
+//   justify-content: space-between;
+//   gap: 10px;
+//   flex-wrap: wrap;
+// }
+
+// // .section-design {
+// //   // position: absolute;
+// // }
+
+// .steps {
+//   font-family: "Jost";
+//   width: 60%;
+//   margin-bottom: auto;
+//   margin-top: auto;
+//   p {
+//     display: flex;
+//     justify-content: center;
+//     color: #989fbc;
+//     font-size: 22px;
+//   }
+// }
+// }

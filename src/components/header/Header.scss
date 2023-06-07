@@ -1,0 +1,193 @@
+.header {
+  background-color: #ffe3e5;
+
+  .headerbox {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+
+    .designtop {
+      display: none;
+    }
+
+    .herotopbig {
+      display: none;
+    }
+    .herotop {
+      background-image: url(header_elements/meatsmall.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      padding-top: 0px;
+      box-shadow: 0 200px rgba(0, 0, 0, 0.2) inset;
+
+      &__history {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        background-color: rgba(6, 155, 6, 0.384);
+        font-family: "JustAnotherHand-Regular";
+        font-size: 20px;
+        padding: 5px;
+      }
+
+      &__statement {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-family: "Jost";
+        font-weight: bolder;
+        font-size: 42px;
+        margin: 0;
+        padding: 0;
+        line-height: 40px;
+        margin: 10px 10px;
+      }
+      &__text {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        margin: 10px 10px;
+        font-family: "Jost";
+        font-size: 18px;
+        margin-bottom: 50px;
+      }
+    }
+
+    .rating {
+      margin-top: 20px;
+
+      &__collection {
+        background-color: #e31244;
+        padding: 6px;
+        border: none;
+        border-radius: 30px;
+        font-family: "jost";
+        font-size: 16px;
+        color: #ffffff;
+      }
+
+      &__cards {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        &--stars {
+          gap: 3px;
+          display: flex;
+        }
+      }
+    }
+
+    .herobottom {
+      &__meat1 {
+        display: none;
+      }
+      &__meat2 {
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width: 986px) {
+      grid-template-rows: 1fr 1fr;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      padding-bottom: 50px;
+      padding-top: 50px;
+
+      .designtop {
+        display: block;
+        position: absolute;
+        margin-left: 500px;
+        opacity: 0.85;
+      }
+
+      .herotop {
+        display: none;
+      }
+
+      .herotopbig {
+        display: block;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        max-width: 450px;
+        margin-right: 50px;
+        margin-left: 130px;
+
+        &__history {
+          margin-top: 45px;
+          margin-bottom: 10px;
+          color: #6f818d;
+          font-family: "JustAnotherHand-Regular";
+          font-size: 20px;
+          padding: 5px;
+        }
+
+        &__statement {
+          font-family: "Jost";
+          font-weight: bolder;
+          font-size: 42px;
+          line-height: 48px;
+        }
+        &__text {
+          display: flex;
+          justify-content: center;
+          color: #6f818d;
+          font-family: "Jost";
+          font-size: 18px;
+        }
+      }
+
+      .rating {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        margin-right: 50px;
+        margin-left: 130px;
+      }
+
+      .herobottom {
+        // border: 5px blue dotted;
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-bottom: 8%;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+          border-radius: 10px;
+          border: 10px #fcf6f6 solid;
+          background-color: #fcf6f6;
+          // width: 50%;
+        }
+        &__meat1 {
+          img {
+            width: 80%;
+          }
+          display: block;
+          margin-top: 10%;
+          margin-left: 33%;
+          border-radius: 3px;
+          z-index: 1;
+          position: absolute;
+        }
+        &__meat2 {
+          display: block;
+          border-radius: 3px;
+          img {
+            width: 40%;
+          }
+        }
+      }
+    }
+
+    @media only screen and (min-width: 1500px) {
+      min-width: 1850px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.brands {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .brands-box {
+    border: 1px #dbdff0 solid;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+    flex-flow: wrap;
+    gap: 20px;
+  }
+}
