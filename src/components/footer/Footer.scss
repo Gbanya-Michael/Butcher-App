@@ -1,8 +1,7 @@
 footer {
   // border: 1px black dotted;
   background-color: #fff2f3;
-  padding-left: 50px;
-  padding-right: 50px;
+
   padding-bottom: 20px;
 
   .design1 {
@@ -84,19 +83,19 @@ footer {
   }
 }
 
-@media only screen and (min-width: 786px) {
-  .design1 {
-    margin-left: 800px;
-  }
-  .footercards {
-    display: flex;
+// @media only screen and (min-width: 786px) {
+//   // .design1 {
+//   //   margin-left: 800px;
+//   // }
+//   .footercards {
+//     display: flex;
 
-    &__right {
-      gap: 25px;
-    }
+//     &__right {
+//       gap: 25px;
+//     }
 
-    &__left {
-      gap: 25px;
-    }
-  }
-}
+//     &__left {
+//       gap: 25px;
+//     }
+//   }
+// }

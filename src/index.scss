@@ -53,6 +53,14 @@ fieldset {
   margin: 0;
 }
 
+html,
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #c4c4c4;
+  margin: 0;
+}
+
 @font-face {
   font-family: "JustAnotherHand-Regular";
   src: url(../src/assets/fonts/JustAnotherHand-Regular.ttf);

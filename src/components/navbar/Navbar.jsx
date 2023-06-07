@@ -7,14 +7,14 @@ export default function Navbar() {
     <>
       <div className="navbar">
         <nav className="navbox">
-          {/* <input type="checkbox" class="navbox__toggle" id="hamburger" hidden />
-          <ul class="navbox__list">
-            <li class="navbox__hamburger">
+          <input type="checkbox" className="navbox__toggle" id="hamburger" />
+          <ul className="navbox__list">
+            <li className="navbox__list--hamburger">
               <label for="hamburger">
                 <img src="menu.svg" alt="" />
               </label>
             </li>
-          </ul> */}
+          </ul>
 
           <div className="navbox__logo">
             <a href="/">
@@ -42,7 +42,7 @@ export default function Navbar() {
               <a href="/">Poultry </a>
             </li>
           </ul>
-          <ul className="navbox__itemsbig">
+          {/* <ul className="navbox__itemsbig">
             <li>
               <a href="/">
                 Beef <span>︿</span>
@@ -62,7 +62,7 @@ export default function Navbar() {
             <li>
               <a href="/">Poultry </a>
             </li>
-          </ul>
+          </ul> */}
           <div className="navbox__icons">
             <a href="/">
               <img src="/navbar_icons/user.svg" alt="" />
