@@ -4,7 +4,7 @@
 }
 
 .process-box {
-  width: 85%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   border: 2px blueviolet solid;
@@ -56,13 +56,24 @@
 // }
 
 .steps {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   font-family: "Jost";
-  width: 100%;
   border: 3px red solid;
 
+  img {
+  }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
   p {
     color: #989fbc;
     font-size: 22px;
+    display: flex;
+    justify-content: center;
   }
 }
 

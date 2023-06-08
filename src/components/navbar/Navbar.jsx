@@ -7,7 +7,12 @@ export default function Navbar() {
     <>
       <div className="navbar">
         <nav className="navbox">
-          <input type="checkbox" className="navbox__toggle" id="hamburger" />
+          <input
+            type="checkbox"
+            className="navbox__toggle"
+            id="hamburger"
+            hidden
+          />
           <ul className="navbox__list">
             <li className="navbox__list--hamburger">
               <label for="hamburger">

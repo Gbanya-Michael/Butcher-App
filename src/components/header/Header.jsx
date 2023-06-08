@@ -6,9 +6,6 @@ export default function Header() {
     <>
       <div className="header">
         <div className="headerbox">
-          <div className="designtop">
-            <img src="design1.svg" alt="" />
-          </div>
           <div className="herotop">
             <h4 className="herotop__history">FRESH MEAT SINCE 1997</h4>
             <h2 className="herotop__statement">
@@ -80,14 +77,13 @@ export default function Header() {
             </div>
           </div>
 
-          <ul className="herobottom">
-            <li className="herobottom__meat1">
-              <img src="header_elements/meat1.jpg" alt="" />
-            </li>
-            <li className="herobottom__meat2">
-              <img src="header_elements/meat2.jpg" alt="" />
-            </li>
-          </ul>
+          <div className="herobottom">
+            <img
+              className="hero-meat"
+              src="header_elements/hero-meat.svg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </>

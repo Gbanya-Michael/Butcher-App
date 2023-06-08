@@ -1,15 +1,12 @@
 .header {
   background-color: #ffe3e5;
+  margin-bottom: 30px;
 
   .headerbox {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-
-    .designtop {
-      display: none;
-    }
 
     .herotopbig {
       display: none;
@@ -27,7 +24,7 @@
         display: flex;
         justify-content: center;
         color: #ffffff;
-        background-color: rgba(6, 155, 6, 0.384);
+        background-color: rgba(0, 4, 0, 0.384);
         font-family: "JustAnotherHand-Regular";
         font-size: 20px;
         padding: 5px;
@@ -74,121 +71,77 @@
         display: flex;
         justify-content: space-between;
         &--stars {
-          gap: 3px;
+          gap: 10px;
           display: flex;
         }
       }
     }
 
     .herobottom {
-      &__meat1 {
-        display: none;
-      }
-      &__meat2 {
-        display: none;
-      }
+      display: none;
     }
 
-    //   @media only screen and (min-width: 986px) {
-    //     grid-template-rows: 1fr 1fr;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    //     margin-top: 30px;
-    //     padding-bottom: 50px;
-    //     padding-top: 50px;
+    @media only screen and (min-width: 768px) {
+      grid-template-rows: min-content min-content;
+      grid-template-columns: 1fr 1fr;
+      margin-left: auto;
+      margin-right: auto;
 
-    //     .designtop {
-    //       display: block;
-    //       position: absolute;
-    //       margin-left: 500px;
-    //       opacity: 0.85;
-    //     }
+      .herotop {
+        display: none;
+      }
 
-    //     .herotop {
-    //       display: none;
-    //     }
+      .herotopbig {
+        border: red 2px dotted;
+        display: block;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 50px;
+        max-width: 80%;
 
-    //     .herotopbig {
-    //       display: block;
-    //       grid-column: 1 / 2;
-    //       grid-row: 1 / 2;
-    //       max-width: 450px;
-    //       margin-right: 50px;
-    //       margin-left: 130px;
+        &__history {
+          margin-top: 45px;
+          color: #6f818d;
+          font-family: "JustAnotherHand-Regular";
+          font-size: 20px;
+          padding: 5px;
+        }
 
-    //       &__history {
-    //         margin-top: 45px;
-    //         margin-bottom: 10px;
-    //         color: #6f818d;
-    //         font-family: "JustAnotherHand-Regular";
-    //         font-size: 20px;
-    //         padding: 5px;
-    //       }
+        &__statement {
+          font-family: "Jost";
+          font-weight: bolder;
+          font-size: 42px;
+          line-height: 48px;
+        }
+        &__text {
+          display: flex;
+          justify-content: center;
+          color: #6f818d;
+          font-family: "Jost";
+          font-size: 18px;
+        }
+      }
 
-    //       &__statement {
-    //         font-family: "Jost";
-    //         font-weight: bolder;
-    //         font-size: 42px;
-    //         line-height: 48px;
-    //       }
-    //       &__text {
-    //         display: flex;
-    //         justify-content: center;
-    //         color: #6f818d;
-    //         font-family: "Jost";
-    //         font-size: 18px;
-    //       }
-    //     }
+      .rating {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        margin-bottom: 20px;
+        max-width: 80%;
+        border: red 2px dotted;
+      }
 
-    //     .rating {
-    //       grid-column: 1 / 2;
-    //       grid-row: 2 / 3;
-    //       margin-right: 50px;
-    //       margin-left: 130px;
-    //     }
+      .herobottom {
+        display: block;
+        border: 3px blue dotted;
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+        margin-top: auto;
+        margin-bottom: auto;
 
-    //     .herobottom {
-    //       // border: 5px blue dotted;
-    //       grid-column: 2 / 3;
-    //       grid-row: 1 / 4;
-    //       width: 100%;
-    //       height: 100%;
-    //       position: relative;
-    //       margin-bottom: 8%;
-    //       margin-top: 5px;
-    //       margin-left: auto;
-    //       margin-right: auto;
-
-    //       img {
-    //         border-radius: 10px;
-    //         border: 10px #fcf6f6 solid;
-    //         background-color: #fcf6f6;
-    //         // width: 50%;
-    //       }
-    //       &__meat1 {
-    //         img {
-    //           width: 80%;
-    //         }
-    //         display: block;
-    //         margin-top: 10%;
-    //         margin-left: 33%;
-    //         border-radius: 3px;
-    //         z-index: 1;
-    //         position: absolute;
-    //       }
-    //       &__meat2 {
-    //         display: block;
-    //         border-radius: 3px;
-    //         img {
-    //           width: 40%;
-    //         }
-    //       }
-    //     }
-    //   }
-
-    //   @media only screen and (min-width: 1500px) {
-    //     min-width: 1850px;
-    //   }
-    // }
+        img {
+          width: 100%;
+        }
+      }
+    }
   }
 }

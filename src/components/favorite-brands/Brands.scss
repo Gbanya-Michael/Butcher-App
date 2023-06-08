@@ -4,7 +4,7 @@
   margin-bottom: 10px;
   .brands-box {
     border: 1px #dbdff0 solid;
-    width: 90%;
+    width: 70%;
     margin-right: auto;
     margin-left: auto;
 
@@ -15,5 +15,10 @@
     padding: 10px;
     flex-flow: wrap;
     gap: 10px;
+
+    @media only screen and (min-width: 768px) {
+      width: 80%;
+      padding: 30px;
+    }
   }
 }
