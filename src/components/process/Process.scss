@@ -4,7 +4,7 @@
 }
 
 .process-box {
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   border: 2px blueviolet solid;
@@ -15,6 +15,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
+  margin-top: 10px;
 
   .text1 {
     display: flex;
@@ -47,8 +48,9 @@
 .process-card {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
-  border: 2px green dotted;
+  width: 95%;
+  // border: 2px green dotted;
+  margin-bottom: 25px;
 }
 
 // .section-design {
@@ -58,91 +60,59 @@
 .steps {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  margin-top: 15px;
+  width: 100%;
   font-family: "Jost";
-  border: 3px red solid;
+  // border: 3px red solid;
 
-  img {
+  .visual1 {
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff1ed;
+    background-size: contain;
+    border-radius: 50%;
+    padding: 12px;
+  }
+  .visual2 {
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d0edfa;
+    background-size: contain;
+    border-radius: 50%;
+    padding: 12px;
+  }
+  .visual3 {
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e7fdf8;
+    background-size: contain;
+    border-radius: 50%;
+    padding: 12px;
   }
 
   h3 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: bold;
   }
   p {
     color: #989fbc;
     font-size: 22px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 22px;
+    font-weight: normal;
   }
 }
 
-// @media only screen and (max-width: 986px) {
-
-//   .process-box {
-//   width: 50%;
-//   margin-left: auto;
-//   margin-right: auto;
-//   border: 2px blueviolet solid;
-// }
-
-// .our-process {
-//   width: 55%;
-//   margin-left: auto;
-//   margin-right: auto;
-
-//   .text1 {
-//     display: flex;
-//     justify-content: center;
-//     font-family: "JustAnotherHand-Regular";
-//     font-size: 18px;
-//     font-weight: normal;
-//     color: #f8ba12;
-//   }
-
-//   .text2 {
-//     display: flex;
-//     justify-content: center;
-//     font-family: "Jost";
-//     font-size: 38px;
-//     font-weight: bold;
-//   }
-
-//   .text3 {
-//     display: flex;
-//     justify-content: center;
-//     font-family: "Jost";
-//     font-size: 22px;
-//     font-weight: normal;
-
-//     color: #989fbc;
-//   }
-// }
-
-// .process-card {
-//   margin-left: auto;
-//   margin-right: auto;
-//   width: 90%;
-//   display: flex;
-//   justify-content: space-between;
-//   gap: 10px;
-//   flex-wrap: wrap;
-// }
-
-// // .section-design {
-// //   // position: absolute;
-// // }
-
-// .steps {
-//   font-family: "Jost";
-//   width: 60%;
-//   margin-bottom: auto;
-//   margin-top: auto;
-//   p {
-//     display: flex;
-//     justify-content: center;
-//     color: #989fbc;
-//     font-size: 22px;
-//   }
-// }
-// }
+@media only screen and (min-width: 768px) {
+  .process-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+}

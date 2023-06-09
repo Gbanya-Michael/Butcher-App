@@ -21,11 +21,10 @@ export default function Process() {
           </ul>
           <ul className="process-card">
             <li className="steps">
-              <img
-                className="chicken"
-                src="process-elements/chicken.png"
-                alt=""
-              />
+              <div className="visual1">
+                <img src="process-elements/chicken.png" alt="" />
+              </div>
+
               <h3>1. Choose Meat</h3>
               <p>
                 s simply dummy text of the printing and typesetting industry.
@@ -33,7 +32,10 @@ export default function Process() {
               </p>
             </li>
             <li className="steps">
-              <img src="process-elements/order.png" alt="" />
+              <div className="visual2">
+                <img src="process-elements/order.png" alt="" />
+              </div>
+
               <h3>2. Quick Order</h3>
               <p>
                 s simply dummy text of the printing and typesetting industry.
@@ -42,7 +44,9 @@ export default function Process() {
             </li>
             <li className="steps">
               {/* <img className="section-design" src="design1.svg" alt="" /> */}
-              <img src="process-elements/door.png" alt="" />
+              <div className="visual3">
+                <img src="process-elements/door.png" alt="" />
+              </div>
               <h3>3. Find at Doorstep</h3>
               <p>
                 s simply dummy text of the printing and typesetting industry.
