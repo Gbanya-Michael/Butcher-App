@@ -1,5 +1,5 @@
 .navbar {
-  border: 3px green dotted;
+  // border: 3px green dotted;
   padding-top: 15px;
 
   .navbox {
@@ -13,7 +13,7 @@
     grid-template-columns: repeat(3 1fr);
     grid-template-rows: repeat(2 1fr);
 
-    border: 2px blue dotted;
+    // border: 2px blue dotted;
 
     &__list {
       grid-column: 1 / 2;
@@ -43,7 +43,7 @@
       grid-row: 1/ 2;
       display: flex;
       justify-content: space-between;
-      gap: 10px;
+      gap: 25px;
       margin-left: auto;
     }
 

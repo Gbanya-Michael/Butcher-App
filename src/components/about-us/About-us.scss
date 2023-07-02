@@ -1,0 +1,118 @@
+.about-us {
+  background-color: #fff4f6;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  .about-us-box {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    .since1997 {
+      img {
+        display: none;
+      }
+
+      h3 {
+        font-family: "jost";
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .video-section {
+      display: flex;
+      justify-content: space-between;
+      .text {
+        font-family: "jost";
+        font-size: 15px;
+        color: #656d89;
+        padding-right: 5px;
+        max-width: 40%;
+      }
+      .video {
+        iframe {
+          max-width: 100%;
+          height: 100%;
+          border-radius: 5px;
+          border: #656d89 8px solid;
+        }
+      }
+    }
+
+    .about-us-design {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 945px) {
+    background-color: #ffffff;
+    padding-left: 0px;
+    padding-right: 0px;
+    .about-us-box {
+      width: 100%;
+      display: flex;
+      position: relative;
+
+      .since1997 {
+        position: absolute;
+
+        width: 430px;
+        top: 0;
+        bottom: 0;
+
+        img {
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+
+        h3 {
+          display: none;
+        }
+      }
+
+      .video-section {
+        width: 100%;
+        display: block;
+        .text {
+          width: 400px;
+          margin-left: auto;
+          margin-bottom: 30px;
+          margin-top: 75px;
+          padding-top: 45px;
+        }
+        .video {
+          height: 500px;
+          width: 70%;
+          margin-left: auto;
+          position: relative;
+
+          iframe {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 5;
+            z-index: 1;
+            max-width: 100%;
+            border-radius: 20px;
+            border: none;
+          }
+        }
+      }
+
+      .about-us-design {
+        width: 110px;
+        margin-top: 85px;
+        padding-top: 45px;
+        img {
+          width: 100%;
+        }
+        display: block;
+      }
+    }
+  }
+}

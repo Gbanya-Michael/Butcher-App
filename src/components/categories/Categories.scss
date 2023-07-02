@@ -1,0 +1,103 @@
+.categories {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  // border: 1px red dotted;
+  .categories-box {
+    // border: 1px blue dotted;
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.categories-sect {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  // border: 1px green dotted;
+  text-align: center;
+
+  .categories-header-sub {
+    font-family: "JustAnotherHand-Regular";
+    font-size: 18px;
+    letter-spacing: 3.24px;
+    font-weight: normal;
+    color: #f8ba12;
+    text-transform: uppercase;
+  }
+
+  .categories-header {
+    font-family: "Jost";
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .categories-desc {
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: normal;
+
+    color: #989fbc;
+  }
+}
+
+.categories-cards {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  // border: 2px green dotted;
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+  .categories-card {
+    margin-top: 15px;
+    width: 250px;
+    font-family: "Jost";
+    // border: 3px red solid;
+    .categories-photo {
+      max-width: 250px;
+      height: 200px;
+      margin-bottom: 5px;
+      img {
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #989fbc;
+      }
+    }
+
+    .card-title {
+      text-align: center;
+      margin-bottom: 5px;
+      font-family: "Jost";
+      font-weight: 600;
+    }
+  }
+}
+
+.categories-see-all {
+  color: #e31244;
+  text-align: center;
+  font-size: 18px;
+  font-family: Jost;
+  font-weight: 600;
+  a {
+    border-bottom: #e31244 1px solid;
+  }
+}
+@media only screen and (min-width: 641px) {
+  .categories-cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+  }
+}

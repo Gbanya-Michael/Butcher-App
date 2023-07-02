@@ -1,0 +1,126 @@
+.testimonial {
+  width: 100%;
+
+  .testimonial-box {
+    width: 70%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+    .testimonial-person {
+      max-width: 150px;
+      min-width: 80px;
+      img {
+        margin-top: 10px;
+        width: 100%;
+      }
+    }
+
+    .testimonial-body {
+      .testimonial-stars {
+        margin-bottom: 10px;
+      }
+
+      .testimonial-text {
+        color: #000;
+        font-size: 15px;
+        font-family: "Jost";
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .testimonial-pagenate {
+      margin-top: 15px;
+      margin-bottom: 5px;
+
+      .person-details {
+        margin-bottom: 15px;
+
+        .details-name {
+          color: #000;
+          font-size: 16px;
+          font-family: "Jost";
+          font-weight: 500;
+          text-transform: capitalize;
+        }
+
+        .details-position {
+          color: #000;
+          font-size: 14px;
+          font-family: "Jost";
+          text-transform: capitalize;
+        }
+      }
+
+      .next-previous {
+        max-width: 270px;
+        min-width: 100px;
+        display: flex;
+        justify-content: space-between;
+
+        .btn-left {
+          border-radius: 350px;
+          border: 0.5px solid #272d41;
+          width: 35px;
+          height: 35px;
+        }
+
+        .btn-right {
+          border-radius: 54px;
+          border: 0.5px solid #e31244;
+
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+
+    .persons {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      max-width: 270px;
+      height: 70px;
+
+      .person-box {
+        width: 45px;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 50%;
+
+        img {
+          width: 100%;
+          height: 45px;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    @media only screen and (min-width: "885px") {
+      .testimonial-body {
+        .testimonial-text {
+          font-size: 25px;
+          font-weight: 600;
+          line-height: 36px;
+        }
+      }
+
+      .testimonial-pagenate {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .person-details {
+        min-width: 250px;
+        max-width: 270px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

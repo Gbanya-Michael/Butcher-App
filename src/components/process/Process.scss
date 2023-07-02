@@ -7,7 +7,6 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border: 2px blueviolet solid;
 }
 
 .our-process {
@@ -18,25 +17,23 @@
   margin-top: 10px;
 
   .text1 {
-    display: flex;
-    justify-content: center;
     font-family: "JustAnotherHand-Regular";
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing: 3.24px;
     font-weight: normal;
     color: #f8ba12;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   .text2 {
-    display: flex;
-    justify-content: center;
     font-family: "Jost";
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
+    text-align: center;
   }
 
   .text3 {
-    display: flex;
-    justify-content: center;
     font-family: "Jost";
     font-size: 15px;
     font-weight: normal;
